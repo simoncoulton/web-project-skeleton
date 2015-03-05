@@ -1,0 +1,56 @@
+# OS Defaults
+.DS_Store
+
+# Vagrant
+.vagrant
+vagrant/*
+!vagrant/.gitkeep
+
+# Node
+node_modules/
+
+# Python
+*.py[cod]
+*.so
+*.egg
+*.egg-info
+dist
+eggs
+parts
+bin
+var
+sdist
+develop-eggs
+.installed.cfg
+lib
+lib64
+__pycache__
+*.pyc
+pip-log.txt
+.coverage
+.tox
+*.mo
+
+# Virtualenv
+virtualenv/
+!virtualenv/.gitkeep
+
+# Ansible
+ansible/*
+!ansible/.gitkeep
+
+# Sublime Text
+*.sublime-workspace
+
+# Project
+# css/js files are processed via Gulp
+source/public/css/
+source/public/js/
+# all build/gulp output
+build/
+!build/.gitkeep
+# logs
+source/data/logs
+!source/data/logs/.gitkeep
+secure/
+!secure/.gitkeep
